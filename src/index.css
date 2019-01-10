@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 body {
   margin: 0;
   padding: 0;
@@ -17,7 +19,7 @@ body {
   user-select: none;
 }
 
-h1 {
+h1, p {
   width: 80%;
   margin: 10px auto 0;
   padding: 0 20px;
@@ -42,6 +44,13 @@ li {
   cursor: default;
 }
 
+li i {
+  margin-right: 10px;
+  font-size: 40px !important;
+  color: #777;
+  cursor: pointer;
+}
+
 li div h3 {
   margin: 0;
   font-size: 24px;
@@ -61,7 +70,7 @@ li:hover {
   background-color: #e2f0fb;
 }
 
-li:hover i, li:hover div h3 {
+li:hover i, li:hover div h3, li.done i, li.done div h3 {
   color: #4aaee2;
   text-shadow: 1px 1px 1px #ccc;
 }
@@ -76,13 +85,13 @@ li:hover div p {
 }
 
 @media (min-width: 768px) {
-  h1, li {
+  h1, p, li {
     width: 60%;
   }
 }
 
 @media (min-width: 1024px) {
-  h1, li {
+  h1, p, li {
     width: 40%;
   }
 }
