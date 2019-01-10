@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ccc;
+
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+h1 {
+  width: 80%;
+  margin: 10px auto 0;
+  padding: 0 20px;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-right: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+  margin-bottom: 2px;
+  padding: 20px;
+  cursor: default;
+}
+
+li div h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #777;
+}
+
+li div p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+li:hover {
+  background-color: #e2f0fb;
+}
+
+li:hover i, li:hover div h3 {
+  color: #4aaee2;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+li.done div h3 {
+  text-decoration: line-through;
+}
+
+li:hover div p {
+  font-size: 14px;
+  color: #777;
+}
+
+@media (min-width: 768px) {
+  h1, li {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1, li {
+    width: 40%;
+  }
+}
