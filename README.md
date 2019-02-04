@@ -1,3 +1,7 @@
+![Main Screen](https://i.postimg.cc/hG7FfCnz/Capture.jpg)
+
+![New Item](https://i.postimg.cc/D06HtHrD/Capture2.jpg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
